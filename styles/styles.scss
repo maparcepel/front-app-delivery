@@ -1,0 +1,11 @@
+$background: #601082;
+$menu: #ee78c4;
+$menu-active: #6ec9d7;
+html,
+body {
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+}
+
+@import 'navbar';

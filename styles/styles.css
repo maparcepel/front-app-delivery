@@ -1,0 +1,53 @@
+html,
+body {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #601082;
+}
+
+.navbar-top {
+  width: 90%;
+  color: white;
+}
+
+.navbar-top a {
+  color: white;
+}
+
+.navbar-bottom a {
+  color: #ee78c4;
+}
+
+.navbar-bottom .active {
+  color: #6ec9d7;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: red !important;
+  }
+  #navbarTogglerDemo02 {
+    width: 100vw !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .navbar-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

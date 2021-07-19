@@ -1,0 +1,35 @@
+.navbar {
+    background-color: $background;
+}
+
+.navbar-top {
+    width: 90%;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+.navbar-bottom {
+    a {
+        color: $menu;
+    }
+    .active {
+        color: $menu-active;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        background-color: red!important;
+    }
+    #navbarTogglerDemo02 {
+        width: 100vw!important;
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+    }
+}
